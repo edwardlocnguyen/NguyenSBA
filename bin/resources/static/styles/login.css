@@ -6,12 +6,36 @@
 	justify-content: center;
 	margin-top: 30px;
 	/* 	web font 1 */
-	font-family: 'Aboreto', cursive;
-	font-family: 'Abril Fatface', cursive;
-	font-family: 'Prosto One', cursive;
+	font-family: 'Poiret One', cursive;
 }
 
-#login_title {
+#name {
 	display: flex;
 	justify-content: center;
+	margin: 10px 0px 0px 0px;
+}
+
+#email-area {
+	justify-content: center;
+	margin: 30px 30px 0px 30px;
+}
+
+#pw-area {
+	justify-content: center;
+	margin: 10px 30px 30px 30px;
+}
+
+#submit-area {
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+}
+
+#new-area {
+	display: flex;
+	margin: 10px;
+}
+
+#create-account {
+	text-decoration: none;
 }

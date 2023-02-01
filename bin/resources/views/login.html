@@ -13,9 +13,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link
-	href="https://fonts.googleapis.com/css2?family=Aboreto&family=Abril+Fatface&family=Prosto+One&display=swap"
+	href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
 	rel="stylesheet">
-<title>Login</title>
+<title>Sign In</title>
 <!-- internal css -->
 <style>
 #login_form {
@@ -42,26 +42,34 @@
 		</div>
 	</nav>
 	<div id="form-div">
-		<!-- 	form 1 -->
-		<form id="login_form" name="login_form" action="overview.html"
-			onsubmit="validate(event)">
-			<div class="mb-3">
-				<div id="login_title">
-					<h4>Login</h4>
+		<div class="card text-bg-dark mb-3 border-light">
+			<div class="card-body">
+				<h5 class="card-title" id="name">Sign in</h5>
+				<p class="card-text"></p>
+			</div>
+			<form id="login_form" name="login_form" action="overview.html"
+				onsubmit="validate(event)">
+				<div class="mb-3" id="email-area">
+					<label for="email_form" class="form-label">Email address</label> <input
+						type="text" class="form-control" id="email_form" name="email_form"
+						aria-describedby="emailHelp">
+					<div id="emailHelp" class="form-text">We'll never share your
+						email with anyone else ;)</div>
 				</div>
-				<label for="email_form" class="form-label">Email address</label> <input
-					type="text" class="form-control" id="email_form" name="email_form"
-					aria-describedby="emailHelp">
-				<div id="emailHelp" class="form-text">We'll never share your
-					email with anyone else ;)</div>
-			</div>
-			<div class="mb-3">
-				<label for="password_form" class="form-label">Password</label> <input
-					type="password" class="form-control" id="password_form"
-					name="password_form">
-			</div>
-			<button type="submit" class="btn btn-primary">Submit</button>
-		</form>
+				<div class="mb-3" id="pw-area">
+					<label for="password_form" class="form-label">Password</label> <input
+						type="password" class="form-control" id="password_form"
+						name="password_form">
+				</div>
+				<div id="submit-area">
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</div>
+				<div id="new-area">
+					<p>New? &nbsp;</p>
+					<a id="create-account" href="">Create an account</a>
+				</div>
+			</form>
+		</div>
 	</div>
 	<script src="../static/scripts/login.js"></script>
 	<script

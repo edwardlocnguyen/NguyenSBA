@@ -53,21 +53,16 @@ body {
 	margin-left: 15px;
 }
 
-#graph_header {
+#graph_card {
 	display: flex;
 	justify-content: center;
-	margin-top: 60px;
+	margin-top: 80px;
+	margin-bottom: 100px;
 }
 
-#graph_title {
-	color: white;
+#graph_card h5 {
+	display: flex;
+	justify-content: center;
 	font-family: 'Aboreto', cursive;
 	font-family: 'Abril Fatface', cursive;
-	font-size: 20px;
-}
-
-#graph {
-	display: flex;
-	justify-content: center;
-	margin: 30px auto;
 }
