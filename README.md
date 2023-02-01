@@ -26,12 +26,14 @@
 ##### 1. This page displays the user's profile, and is interactive
 ##### 2. This page contains a popup form (Bootstrap modal) that allows a user to update their info
 ##### 3. Some JS methods that are used consist of: event listeners and functions
+##### 4. This page uses many CSS selectors such as: element, class, id, and pseudo-class
 
 ### Accounts Page:
 ##### 1. This page displays a table of the user's financial accounts with its asset type and dollar amount
 ##### 2. The page has a drop-down menu with different years as options, to see a user's net worth over the years
 ##### 3. When a year is chosen from the drop-down menu, the table will update its values
 ##### 4. The page also contains an image of a graph of the user's net worth over time
+##### 5. This page uses many CSS selectors, one of which is the compound selector
 
 ### Assets Page:
 ##### 1. This page displays a table of the user's asset types with its percentage allocation and dollar amount
