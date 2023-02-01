@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+	background-color: #6c6c6c;
+}
+
+#nw_table {
+	width: 80%;
+	margin: 30px auto;
+}
+
+#nw_header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#nw_title {
+	display: flex;
+	justify-content: center;
+}
+
+/* compound selector */
+#nw_title h4 {
+	color: white;
+	font-family: 'Aboreto', cursive;
+	font-family: 'Abril Fatface', cursive;
+}
+
+#year {
+	display: flex;
+	justify-content: flex-start;
+}
+
+#edit {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#edit-icon {
+	max-width: 2.5%;
+	margin-bottom: 5px;
+}
+
+#edit-icon:hover {
+	opacity: 0.3;
+}
+
+#year_displayed {
+	color: white;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+#graph_header {
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+#graph_title {
+	color: white;
+	font-family: 'Aboreto', cursive;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 20px;
+}
+
+#graph {
+	display: flex;
+	justify-content: center;
+	margin: 30px auto;
+}

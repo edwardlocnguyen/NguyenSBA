@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* body {
+	background-color: #6c6c6c;
+} */
+#form-div {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	font-family: 'Abril Fatface', cursive;
+}
+
+/* #login_form {
+	width: 500px;
+} */
+#login_title {
+	display: flex;
+	justify-content: center;
+}
