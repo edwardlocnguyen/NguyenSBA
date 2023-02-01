@@ -6,7 +6,9 @@
 	justify-content: center;
 	margin-top: 30px;
 	/* 	web font 1 */
+	font-family: 'Aboreto', cursive;
 	font-family: 'Abril Fatface', cursive;
+	font-family: 'Prosto One', cursive;
 }
 
 #login_title {
