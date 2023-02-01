@@ -1,6 +1,8 @@
 let submit = document.querySelector(".btn.btn-primary");
+// js event when form is submitted
 submit.addEventListener("click", submitForm);
 
+// js function to turn old user data into new user data (from the form)
 function submitForm() {	
 	let old_name_item = document.getElementById("name");
 	let old_name_item_text = old_name_item.innerText;
@@ -61,6 +63,7 @@ function submitForm() {
 		old_email_item.innerText = final_email;
 	};
 	
+	// clear all data in form
 	document.getElementById("name-form").value = "";
 	document.getElementById("username-form").value = "";
 	document.getElementById("dob-form").value = "";
@@ -70,6 +73,7 @@ function submitForm() {
 	
 }
 
+// js function to clear all data in form when it's not submitted, and just closed out
 let close = document.querySelector(".btn.btn-secondary");
 close.addEventListener("click", closeForm);
 

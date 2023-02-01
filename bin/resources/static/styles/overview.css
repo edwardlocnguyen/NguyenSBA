@@ -15,11 +15,12 @@ a {
 #header {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 }
 
 #title {
 	color: white;
+/* 	web font 2 */
 	font-family: 'Aboreto', cursive;
 	font-family: 'Abril Fatface', cursive;
 }

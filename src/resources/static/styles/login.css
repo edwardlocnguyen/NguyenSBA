@@ -1,18 +1,14 @@
 @charset "UTF-8";
 
-/* body {
-	background-color: #6c6c6c;
-} */
 #form-div {
+	/* 	extra credit flexbox */
 	display: flex;
 	justify-content: center;
 	margin-top: 30px;
+	/* 	web font 1 */
 	font-family: 'Abril Fatface', cursive;
 }
 
-/* #login_form {
-	width: 500px;
-} */
 #login_title {
 	display: flex;
 	justify-content: center;

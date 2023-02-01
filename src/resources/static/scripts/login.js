@@ -1,5 +1,7 @@
+// js function to validate login form
 function validate(event) {
 	
+	// js if statements
 	if (document.login_form.email_form.value == "") {
 		alert("Please provide your Email!");
 		document.login_form.email_form.focus();
@@ -27,15 +29,12 @@ function validate(event) {
 		return true;
 	}
 	
-	if (document.login_form.email_form.value != "" && document.login_form.password_form.value != "") {
-		return true;
-	} else {
-		return false;
-}
-	
 }
 
+// js function to validate email field using character positioning and regex validation
 function validateEmail() {
+	
+	// js variables
 	let index_pass = true;
 	var emailID = document.login_form.email_form.value;
 	atpos = emailID.indexOf("@");
@@ -45,6 +44,8 @@ function validateEmail() {
 	}
 	
 	let email_pass = true;
+	
+	// regex validation
 	let email_regex = /^[a-zA-Z0-9.!#$%&‘+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)$/;
 	if (!email_regex.test(emailID)) {
 		email_pass = false;
