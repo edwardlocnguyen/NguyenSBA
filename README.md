@@ -21,6 +21,7 @@
 ### Home Page:
 ##### 1. This page displays an overview of the user's profile, financial accounts, and asset type allocations
 ##### 2. The page relies heavily on Bootstrap (SASS) for organization and customization
+##### 3. This page also displays cards with a GIF and Video that are related to the Finance Industry
 
 ### User Profile Page:
 ##### 1. This page displays the user's profile, and is interactive
